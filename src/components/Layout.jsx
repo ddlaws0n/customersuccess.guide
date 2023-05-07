@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import clsx from 'clsx'
 
 import { Hero } from '@/components/Hero'
-import { Logo } from '@/components/Logo'
+import { Logo, LogoSquare } from '@/components/Logo'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
@@ -22,7 +22,11 @@ const navigation = [
   {
     title: 'Core concepts',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
+      {
+        title: 'Understanding caching',
+        active: false,
+        href: '/docs/understanding-caching',
+      },
       {
         title: 'Predicting user behavior',
         href: '/docs/predicting-user-behavior',
@@ -104,6 +108,7 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
+          <LogoSquare className="h-9 w-9 lg:hidden" />
           <Logo className="hidden h-9 w-auto fill-slate-700 dark:fill-emerald-100 lg:block" />
         </Link>
       </div>

@@ -13,9 +13,9 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 
 const navigation = [
   {
-    title: 'Introduction',
+    title: 'Getting Started',
     links: [
-      { title: 'Getting started', href: '/' },
+      { title: 'Introduction', href: '/' },
       { title: 'Motivation', href: '/learn/motivation' },
       {
         title: 'Additional Resources',
@@ -25,54 +25,157 @@ const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Customer Success 101',
     links: [
       {
-        title: 'Understanding caching',
+        title: 'Why have a CS team?',
+        href: '/learn/why-invest-in-customer-success',
+      },
+      {
+        title: 'Key Terminology',
+        href: '/learn/key-terminology',
         active: false,
-        href: '/learn/understanding-caching',
       },
       {
-        title: 'Predicting user behavior',
-        href: '/learn/predicting-user-behavior',
+        title: 'Roles & Responsibilities',
+        href: '/learn/roles-and-responsibilities',
+        active: false,
       },
-      { title: 'Basics of time-travel', href: '/learn/basics-of-time-travel' },
       {
-        title: 'Introduction to string theory',
-        href: '/learn/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/learn/the-butterfly-effect' },
-    ],
-  },
-  {
-    title: 'Advanced learns',
-    links: [
-      { title: 'Writing plugins', href: '/learn/writing-plugins' },
-      { title: 'Neuralink integration', href: '/learn/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/learn/temporal-paradoxes' },
-      { title: 'Testing', href: '/learn/testing' },
-      { title: 'Compile-time caching', href: '/learn/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/learn/predictive-data-generation',
+        title: 'Business Objective Alignment',
+        href: '/learn/aligning-customer-success-to-business-objectives',
+        active: false,
       },
     ],
   },
   {
-    title: 'API reference',
+    title: 'Fundamental Concepts',
     links: [
-      { title: 'CacheAdvance.predict()', href: '/learn/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/learn/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/learn/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/learn/cacheadvance-regret' },
+      {
+        title: 'Customer Lifecycle Management',
+        href: '/learn/customer-lifecycle-management',
+        active: false,
+      },
+      {
+        title: 'Onboarding & Adoption',
+        href: '/learn/customer-saas-onboarding-adoption',
+        active: false,
+      },
+      {
+        title: 'Proactive Customer Engagement',
+        href: '/learn/proactive-customer-engagement',
+        active: false,
+      },
+      {
+        title: 'Customer Health Scoring',
+        href: '/learn/customer-health-scoring-and-proactive-indicators',
+        active: false,
+      },
+      {
+        title: 'Customer Retention & Churn Prevention',
+        href: '/learn/customer-retention-churn-prevention-strategies',
+        active: false,
+      },
+      {
+        title: 'Customer Advocacy & Referrals',
+        href: '/learn/customer-advocacy-loyalty-referrals',
+        active: false,
+      },
     ],
   },
   {
-    title: 'Contributing',
+    title: 'Customer Success Metrics & KPIs',
     links: [
-      { title: 'How to contribute', href: '/learn/how-to-contribute' },
-      { title: 'Architecture learn', href: '/learn/architecture-learn' },
-      { title: 'Design principles', href: '/learn/design-principles' },
+      {
+        title: 'Defining & Tracking KPIs',
+        href: '/learn/defining-tracking-key-performance-indicators',
+        active: false,
+      },
+      {
+        title: 'Measuring Customer Satisfaction',
+        href: '/learn/measuring-analysing-customer-satisfaction',
+        active: false,
+      },
+      {
+        title: 'Customer Health Metrics',
+        href: '/learn/customer-health-metrics-deep-dive',
+        active: false,
+      },
+      {
+        title: 'Benchmarking Performance',
+        href: '/learn/benchmarking-customer-success-performance',
+        active: false,
+      },
+    ],
+  },
+  {
+    title: 'Account Management & Growth Strategies',
+    links: [
+      {
+        title: 'Account Planning and Segmentation',
+        href: '/learn/account-planning-segmentation',
+        active: false,
+      },
+      {
+        title: 'Cross & Upselling',
+        href: '/learn/cross-seling-up-selling',
+        active: false,
+      },
+      {
+        title: 'Renewals & Contract Negotiation',
+        href: '/learn/renewals-contract-negotiation',
+        active: false,
+      },
+    ],
+  },
+  {
+    title: 'Building & Scaling a Customer Success Team',
+    links: [
+      {
+        title: 'Hiring CS Professionals',
+        href: '/learn/hiring-onboarding-customer-success-professionals',
+        active: false,
+      },
+      {
+        title: 'Training & Coaching',
+        href: '/learn/training-coaching-continuous-improvement',
+        active: false,
+      },
+      {
+        title: 'Process Optimization & Automation',
+        href: '/learn/process-optimization-automation',
+        active: false,
+      },
+      {
+        title: 'Collaboration Across Departments',
+        href: '/learn/collaboration-communication-across-departments',
+        active: false,
+      },
+    ],
+  },
+  {
+    title: 'Advanced Strategies',
+    links: [
+      {
+        title: 'Personalizing Customer Journeys',
+        href: '/learn/personalizing-customer-journeys',
+        active: false,
+      },
+      {
+        title: 'Leveraging Data for Decision Making',
+        href: '/learn/leveraging-data-analytics-strategic-decision-making',
+        active: false,
+      },
+      {
+        title: 'Managing Challenging Customers',
+        href: '/learn/managing-challenging-customers-situations',
+        active: false,
+      },
+      {
+        title: 'Future Trends and Opportunities',
+        href: '/learn/future-customer-success-trends-opportunities',
+        active: false,
+      },
     ],
   },
 ]

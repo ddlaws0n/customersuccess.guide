@@ -1,7 +1,7 @@
 ---
 title: Getting started
-pageTitle: CacheAdvance - Never miss the cache again.
-description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
+pageTitle: Customer Success Guide - Your Resource for Exceptional Customer Experiences
+description: Community-driven resources for Customer Success professionals. Learn, share, connect and grow in the world of B2B SaaS.
 ---
 
 Learn how to get CacheAdvance set up in your project in under thirty minutes or it's free. {% .lead %}

@@ -35,10 +35,10 @@ export function Navigation({ navigation, className }) {
                       </Link>
                     ) : (
                       <span className="block w-full pl-3.5 text-slate-500/60">
-                        {link.title}
-                        <span className="ml-2 inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-2 inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10 dark:bg-slate-900 dark:text-gray-500">
                           WIP
                         </span>
+                        {link.title}
                       </span>
                     )}
                   </li>

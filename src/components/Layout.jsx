@@ -17,18 +17,18 @@ const navigation = [
     links: [
       { title: 'Introduction', href: '/' },
       { title: 'Motivation', href: '/learn/motivation' },
-      {
-        title: 'Additional Resources',
-        href: '/learn/motivation',
-        active: false,
-      },
+      // {
+      //   title: 'Additional Resources',
+      //   href: '/learn/motivation',
+      //   active: false,
+      // },
     ],
   },
   {
     title: 'Customer Success 101',
     links: [
       {
-        title: 'Why have a CS team?',
+        title: 'Importance of CS',
         href: '/learn/why-invest-in-customer-success',
       },
       {
@@ -42,7 +42,7 @@ const navigation = [
         active: false,
       },
       {
-        title: 'Business Objective Alignment',
+        title: 'Business Objectives',
         href: '/learn/aligning-customer-success-to-business-objectives',
         active: false,
       },
@@ -52,32 +52,32 @@ const navigation = [
     title: 'Fundamental Concepts',
     links: [
       {
-        title: 'Customer Lifecycle Management',
+        title: 'Customer Lifecycle',
         href: '/learn/customer-lifecycle-management',
         active: false,
       },
+      // {
+      //   title: 'Onboarding & Adoption',
+      //   href: '/learn/customer-saas-onboarding-adoption',
+      //   active: false,
+      // },
       {
-        title: 'Onboarding & Adoption',
-        href: '/learn/customer-saas-onboarding-adoption',
-        active: false,
-      },
-      {
-        title: 'Proactive Customer Engagement',
+        title: 'Proactive Engagement',
         href: '/learn/proactive-customer-engagement',
         active: false,
       },
       {
-        title: 'Customer Health Scoring',
+        title: 'Health Scoring',
         href: '/learn/customer-health-scoring-and-proactive-indicators',
         active: false,
       },
       {
-        title: 'Customer Retention & Churn Prevention',
+        title: 'Customer Retention',
         href: '/learn/customer-retention-churn-prevention-strategies',
         active: false,
       },
       {
-        title: 'Customer Advocacy & Referrals',
+        title: 'Customer Advocacy',
         href: '/learn/customer-advocacy-loyalty-referrals',
         active: false,
       },
@@ -87,22 +87,22 @@ const navigation = [
     title: 'Customer Success Metrics & KPIs',
     links: [
       {
-        title: 'Defining & Tracking KPIs',
+        title: 'Defining KPIs',
         href: '/learn/defining-tracking-key-performance-indicators',
         active: false,
       },
       {
-        title: 'Measuring Customer Satisfaction',
+        title: 'Customer Satisfaction',
         href: '/learn/measuring-analysing-customer-satisfaction',
         active: false,
       },
+      // {
+      //   title: 'Customer Health',
+      //   href: '/learn/customer-health-metrics-deep-dive',
+      //   active: false,
+      // },
       {
-        title: 'Customer Health Metrics',
-        href: '/learn/customer-health-metrics-deep-dive',
-        active: false,
-      },
-      {
-        title: 'Benchmarking Performance',
+        title: 'Performance Benchmarking',
         href: '/learn/benchmarking-customer-success-performance',
         active: false,
       },
@@ -112,7 +112,7 @@ const navigation = [
     title: 'Account Management & Growth Strategies',
     links: [
       {
-        title: 'Account Planning and Segmentation',
+        title: 'Account Segmentation',
         href: '/learn/account-planning-segmentation',
         active: false,
       },
@@ -122,37 +122,37 @@ const navigation = [
         active: false,
       },
       {
-        title: 'Renewals & Contract Negotiation',
+        title: 'Renewals',
         href: '/learn/renewals-contract-negotiation',
         active: false,
       },
     ],
   },
-  {
-    title: 'Building & Scaling a Customer Success Team',
-    links: [
-      {
-        title: 'Hiring CS Professionals',
-        href: '/learn/hiring-onboarding-customer-success-professionals',
-        active: false,
-      },
-      {
-        title: 'Training & Coaching',
-        href: '/learn/training-coaching-continuous-improvement',
-        active: false,
-      },
-      {
-        title: 'Process Optimization & Automation',
-        href: '/learn/process-optimization-automation',
-        active: false,
-      },
-      {
-        title: 'Collaboration Across Departments',
-        href: '/learn/collaboration-communication-across-departments',
-        active: false,
-      },
-    ],
-  },
+  // {
+  //   title: 'Building & Scaling a Customer Success Team',
+  //   links: [
+  //     {
+  //       title: 'Hiring CS Professionals',
+  //       href: '/learn/hiring-onboarding-customer-success-professionals',
+  //       active: false,
+  //     },
+  //     {
+  //       title: 'Training & Coaching',
+  //       href: '/learn/training-coaching-continuous-improvement',
+  //       active: false,
+  //     },
+  //     {
+  //       title: 'Process Optimization & Automation',
+  //       href: '/learn/process-optimization-automation',
+  //       active: false,
+  //     },
+  //     {
+  //       title: 'Collaboration Across Departments',
+  //       href: '/learn/collaboration-communication-across-departments',
+  //       active: false,
+  //     },
+  //   ],
+  // },
   {
     title: 'Advanced Strategies',
     links: [
@@ -162,17 +162,17 @@ const navigation = [
         active: false,
       },
       {
-        title: 'Leveraging Data for Decision Making',
+        title: 'Leveraging Data',
         href: '/learn/leveraging-data-analytics-strategic-decision-making',
         active: false,
       },
       {
-        title: 'Managing Challenging Customers',
+        title: 'Challenging Customers',
         href: '/learn/managing-challenging-customers-situations',
         active: false,
       },
       {
-        title: 'Future Trends and Opportunities',
+        title: 'Future Opportunities',
         href: '/learn/future-customer-success-trends-opportunities',
         active: false,
       },
@@ -309,7 +309,7 @@ export function Layout({ children, title, tableOfContents }) {
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
           <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
           <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-slate-800 dark:block" />
-          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5">
+          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5 scrollbar-none">
             <Navigation
               navigation={navigation}
               className="w-64 pr-8 xl:w-72 xl:pr-16"

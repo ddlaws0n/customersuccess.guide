@@ -34,7 +34,6 @@ const navigation = [
       {
         title: 'Key Terminology',
         href: '/learn/key-terminology',
-        active: false,
       },
       {
         title: 'Roles & Responsibilities',
@@ -54,7 +53,7 @@ const navigation = [
       {
         title: 'Customer Lifecycle',
         href: '/learn/customer-lifecycle-management',
-        active: false,
+        active: true,
       },
       // {
       //   title: 'Onboarding & Adoption',

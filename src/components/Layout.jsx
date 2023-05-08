@@ -355,7 +355,7 @@ export function Layout({ children, title, tableOfContents }) {
                 </dd>
               </div>
             )}
-            {nextPage && (
+            {nextPage && nextPage.active !== false && (
               <div className="ml-auto text-right">
                 <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
                   Next

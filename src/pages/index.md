@@ -10,7 +10,7 @@ The _Customer Success Guide_ is a **free** resource which aims to provide a comp
 
 {% quick-link title="Start Here" icon="installation" href="/learn/why-invest-in-customer-success" description="Get started with the basic principles and key concepts in Customer Success." /%}
 
-{% quick-link title="Learning Plan" icon="presets" href="/" description="Guided learning path for moving from beginner to expert Customer Success professional." /%}
+{% quick-link title="Learning Plan" icon="presets" href="/#guide-structure" description="Guided learning path for moving from beginner to expert Customer Success professional." /%}
 
 {% quick-link title="Request Content" icon="plugins" href="mailto:contact@customersuccess.guide" description="Is there any content you'd like to see but can't find? Let us know and we'll see what we can do." /%}
 

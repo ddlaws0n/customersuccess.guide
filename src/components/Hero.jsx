@@ -56,10 +56,10 @@ export function Hero() {
                 boost customer retention, and drive sustainable growth.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Get started</Button>
-                <Button href="/" variant="secondary">
+                <Button href="/#background">Get started</Button>
+                {/* <Button href="/" variant="secondary">
                   Join the community
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>

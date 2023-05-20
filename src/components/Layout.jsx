@@ -38,7 +38,6 @@ const navigation = [
       {
         title: 'Roles & Responsibilities',
         href: '/learn/roles-and-responsibilities',
-        active: false,
       },
       {
         title: 'Business Objectives',

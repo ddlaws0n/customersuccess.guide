@@ -1,4 +1,5 @@
-const SITE_URL = process.env.SITE_URL || 'https://customersuccess.guide'
+// const SITE_URL = process.env.SITE_URL || 'https://customersuccess.guide'
+const SITE_URL = 'https://customersuccess.guide'
 
 const NEXT_SSG_FILES = [
   '/*.json$',

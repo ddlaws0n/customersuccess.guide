@@ -47,6 +47,6 @@ Recommended further reading:
 
 - [Gainsight: The Essential Guide to Customer Success](https://www.gainsight.com/guides/the-essential-guide-to-customer-success/)
 - [Forbes: Why Customer Success Matters More Than Ever](https://www.forbes.com/sites/shephyken/2018/03/17/why-customer-success-matters-more-than-ever/?sh=34c5396f63ef)
-- [HubSpot: Effective Customer Success Programs](<[https://blog.hubspot.com/service/customer-success-program](https://blog.hubspot.com/service/customer-success-program)>)
+- [HubSpot: Effective Customer Success Programs](https://blog.hubspot.com/service/customer-success-program)
 
 By taking a proactive approach and investing in a robust customer success strategy, you're not only ensuring the satisfaction of your current customers but also setting your business up for sustainable growth. Keep learning, iterating, and refining your customer success program to stay ahead of the competition and create a loyal customer base that drives your business forward. Remember, the key to unlocking the magic of customer success lies in understanding your customers' needs, providing tailored support, and celebrating their achievements along the way. Happy customers are successful customers, and successful customers are the foundation of a thriving business!

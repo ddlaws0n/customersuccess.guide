@@ -42,7 +42,6 @@ const navigation = [
       {
         title: 'Business Objectives',
         href: '/learn/aligning-customer-success-to-business-objectives',
-        active: false,
       },
     ],
   },

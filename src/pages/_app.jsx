@@ -68,8 +68,8 @@ export default function App({ Component, pageProps }) {
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
       </Head>
+      <GoogleAnalytics gaMeasurementId="G-D32X1XPBT2" trackPageViews />
       <Layout title={title} tableOfContents={tableOfContents}>
-        <GoogleAnalytics gaMeasurementId="G-D32X1XPBT2" trackPageViews />
         <Component {...pageProps} />
       </Layout>
     </>
